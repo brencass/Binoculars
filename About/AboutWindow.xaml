@@ -1,0 +1,19 @@
+﻿<Window x:Class="DynaStandard.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DynaStandard"
+        mc:Ignorable="d"
+        Loaded="Window_Loaded"
+        Title="About" Height="308.753" Width="532.897">
+
+    <StackPanel x:Name="AboutPanel" Background="Black">
+        <TextBlock x:Name="HelloBox" TextWrapping="Wrap" Margin="20,20,20,0" Foreground="White" FontFamily="Arial"/>
+        <TextBlock TextWrapping="Wrap" Height="193" Margin="20,0" FontFamily="Arial"><LineBreak/><Run Foreground="White" FontSize="12.6666666666667" Text="We at Binoculars just want to let you know that collecting user data is common practice in modern websites and applications as a way of providing creators with more information to make decisions and create better experiences. Among other benefits, data can be used to help tailor content, drive product direction, and provide insight into problems in current implementations. Collecting relevant information and using it wisely can give organizations an edge over competitors and increase the impact of limited resources. "/><LineBreak/><LineBreak/><Run Foreground="White" FontSize="12.6666666666667" Text="Kind Regards,"/><LineBreak/><LineBreak/><Run Foreground="White" FontSize="12.6666666666667" Text="All the Team @ Binoculars."/></TextBlock>
+        <TextBlock TextWrapping="Wrap" Foreground="White" HorizontalAlignment="Right" Width="473" FontFamily="Arial"><Run/><InlineUIContainer>
+                <Image HorizontalAlignment="Left" Height="10" Width="10" Source="/Binoculars;component/Images/GitHub-Mark-Light-64px.png">
+                </Image>
+            </InlineUIContainer><Run Text="     "/><Hyperlink Foreground="#FF6D6D6D" NavigateUri="https://github.com/teamtreedyn/Binoculars/" TextDecorations="Underline"><Run Text="https://github.com/teamtreedyn/Binoculars/"/></Hyperlink></TextBlock>
+    </StackPanel>
+</Window>
